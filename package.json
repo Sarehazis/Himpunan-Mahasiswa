@@ -1,0 +1,21 @@
+{
+  "name": "himpunan-mahasiswa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "alpinejs": "^3.13.3",
+    "esbuild": "^0.19.11",
+    "flowbite": "^2.2.1"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.1"
+  }
+}
